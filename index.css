@@ -378,7 +378,7 @@ a {
 /* ======================================================================================== */
 /* LOGIN PART */
 
-.container {
+.login-container {
     display: flex;
     padding: 70px 0px;
     height: 100vh;

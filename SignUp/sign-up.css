@@ -1,0 +1,93 @@
+/* Tauheed Khan sign up page source code css start */
+body{
+    background-color: #fff
+}
+.form-container{
+    display: flex;
+    margin: auto;
+    margin-top: 5%;
+    height: 500px;
+    width: 780px;
+    /* background-color: red; */
+    border: none;
+    box-shadow: rgba(56, 55, 55, 0.35) 0px 5px 10px, rgba(56, 55, 55, 0.35) 0px -5px 10px;
+}
+.left-card{
+    border: none;
+    border-radius: 0px;
+    height: inherit;
+    width: 50%;
+    /* background-image: url('https://previews.agefotostock.com/previewimage/medibigoff/1cf8fe68238724610d4fbe34b6c824fd/bbe-88096.jpg'); */
+    background-image: url('https://images.unsplash.com/photo-1551601651-2a8555f1a136?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzF8fGRvY3RvcnxlbnwwfHwwfHw%3D&w=1000&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.right-card{
+    border: none;
+    border-radius: 0px;
+    height: inherit;
+    width: 50%;
+}
+.form-group{
+    width: 70%;
+    margin: 0 auto;
+    padding: 0;
+}
+.check-box{
+    padding-left: 20px;
+}
+.btn{
+    width: 273px;
+    margin-top: 20px;
+}
+.card-heading{
+    margin: auto;
+    margin-top: 1rem;
+    padding: 5px;
+    padding-left: 130px;
+    padding-top: 11px;
+    height: 50px;
+    width: 90%;
+    border-bottom: 3px solid white;
+    border-radius: 1px;
+}
+#heading{
+    color: white;
+    font-weight: 650;
+}
+#center-heading{
+    margin: auto;
+    padding-top: 0px;
+    color: white;
+    font-weight: 350;
+    text-align: center;
+
+}
+#center-heading-span{
+    color: #007bff;
+}
+.right-card{
+    font-size: 14px;
+}
+.check-box-content{
+    font-size: 12px;
+}
+.close-btn{
+    margin: auto;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    height: 30px;
+    width: 30px;
+    padding-top: 4px;
+    font-size: 15px;
+    font-weight: 550;
+    border: none;
+}
+.close-btn:hover{
+    color: white;
+    background-color: red;
+    cursor: pointer;
+}
+/* Tauheed Khan sign up page source code css start */

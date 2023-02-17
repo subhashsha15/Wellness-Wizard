@@ -1,0 +1,310 @@
+/* Tauheed Khan main page source code css start */
+body{
+    background-color: #fff;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    margin-top: 3rem;
+}
+.frame{
+    height: 100%;
+    width: 100%;
+}
+.row{
+    justify-content: center;
+    margin: 1rem;
+    gap: 25px;
+    /* width: 85%; */
+}
+.card{
+    border-radius: 20px;
+}
+.target-1row{
+    margin: auto;
+    margin-top: 1rem;
+    justify-content: center;
+    height: 80px;
+    width: 86%;
+    border-radius: 10px;
+    background-image: url('https://www.medibuddy.in/assets/ABHA.svg');
+    background-size: cover;
+}
+.video-section{
+    border-radius: 1rem;
+}
+.div-round {
+    overflow: hidden;
+    position: relative;
+    z-index: 10;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.div-round::before {
+    display: block;
+    content: "";
+}
+
+.iframe-round {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    -webkit-border-radius: 20px;
+    border-radius: 10px;
+}
+#gold-heading2, #btn-txt, .card-text{
+    color: #262c67;
+}
+.heading-color {
+    color: #262c67;
+    text-align: justify;
+    word-spacing: 0px;
+}
+.target-heading{
+    text-align: center;
+    padding-top: 50px;
+}
+.flex-btn{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.img-btn{
+    height: 3rem;
+    width: 10rem;
+}
+.target-card{
+    border: 0px;
+}
+.target-row{
+    padding: 2rem;
+}
+.target-3row{
+    padding-top: 3rem;
+}
+.target-warning-btn{
+    height: 3rem;
+    width: 16rem;
+    border-radius: 50px;
+}
+.card-img-top{
+    height: 80px;
+    width: 200px;
+} 
+.targetImg{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.targetCard{
+    box-shadow: 10px 20px 300px white;
+}
+#gold-heading1, #gold-heading2{
+    padding-top: 1rem;
+}
+#gold-heading2{
+    padding-bottom: 1rem;
+}
+#medibuddy-gold-heading{
+    color: rgb(113, 113, 253);
+}
+#buddy-span{
+    color: rgb(255, 29, 29);
+}
+#gold-span{
+    color: rgb(215, 183, 4);
+}
+.target-warning-btn{
+    background-color: rgb(215, 183, 4);;
+}
+#gold-heading1, .card-title{
+    color: rgb(226, 31, 31);
+}
+.taret-gold-card{
+    border: 0px;
+}
+.card-padding-right{
+    left: 21.7%
+}
+.card-padding-top{
+    top: 3rem;
+}
+.target-3row .card1, .target-1row{
+    box-shadow: rgba(56, 55, 55, 0.35) 0px 5px 15px;
+    border: none;
+}
+.target-gold-card{
+    border: none;
+}
+.target-3row .card{
+    padding-top: 10px;
+    height: 250px;
+    width: 200px;
+}
+.target-gold-card{
+    height: 250px;
+}
+.card-text{
+    font-size: 13px;
+}
+.target-4row{
+    margin: auto;
+    margin-top: 8rem;
+    width: 86%;
+}
+.target-insurance-card{
+    border: none;
+}
+.insuance-headings{
+    color: #262c67
+}
+.target-5row{
+    margin: auto;
+    margin-top: 30px;
+}
+.target-5row .card{
+    box-sizing: border-box;
+    height: 220px;
+    width: 150px;
+    border: none;
+    box-shadow: rgba(56, 55, 55, 0.35) 0px 5px 15px;
+}
+.target-5row> .card >h6{
+    color: #262c67;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.body-card .card-text{
+    color: #262c67;
+    padding-left: 20px;
+    padding-top: 10px;
+    /* text-align: center; */
+}
+.card-footer-img{
+    margin: auto;
+    margin-right: 10px;
+    margin-bottom: 1rem;
+}
+/* adding curved image -background to my-container*/
+.my-container{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Tauheed Khan main page source code css start */
+
+
+        /* phone and mobile */
+        @media (max-width:480px) {
+            .target-1row{
+                height: 50px;
+                width: 80%;
+                background-image: url('https://www.medibuddy.in/assets/ABHA.svg');
+                background-size: contain;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+            .target-gold-card{
+                margin-bottom: 8rem;
+            }
+            .card1{
+                margin-bottom: 2rem;
+            }
+            .responsive-margin-card1{
+                margin-bottom: 0px;
+            }
+            .responsive-margin-card3{
+                left: 0%;
+                margin-top: 4rem;
+                margin-bottom: 0px;
+            }
+            .responsive-margin-card4{
+                left: 0%;
+            }
+            .flex-btn{
+                gap: 1rem;
+            }
+        }
+
+        /*low resolution tablet and ipad*/
+        @media (min-width:481px) and (max-width:767px) {
+            .target-1row{
+                height: 50px;
+                width: 80%;
+                background-image: url('https://www.medibuddy.in/assets/ABHA.svg');
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
+            .target-gold-card{
+                margin-bottom: 8rem;
+            }
+            .card1{
+                margin-bottom: 2rem;
+            }
+            .responsive-margin-card1{
+                margin-bottom: 0px;
+            }
+            .responsive-margin-card3{
+                left: 0%;
+                margin-top: 4rem;
+                margin-bottom: 0px;
+            }
+            .responsive-margin-card4{
+                left: 0%;
+            }
+            .flex-btn{
+                gap: 1rem;
+            }
+        }
+
+        /*portrait mode tablet and ipad*/
+        @media (min-width:768px) and (max-width:1024px) {
+            .target-1row{
+                height: 60px;
+                width: 80%;
+                background-image: url('https://www.medibuddy.in/assets/ABHA.svg');
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
+            .responsive-margin-card3{
+                left: 11%;
+                margin-top: 3rem;
+                /* margin-bottom: 0px; */
+            }
+            .target-row{
+                gap: 4rem;
+            }
+            .flex-btn{
+                gap: 1rem;
+            }
+        }
+
+        /*laptop*/
+        @media (min-width:1025px) and (max-width:1280px) {
+            .target-1row{
+                height: 70px;
+                width: 80%;
+                background-image: url('https://www.medibuddy.in/assets/ABHA.svg');
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
+            
+        }
+
+        /*large screen*/
+        @media(min-width:1281px) {
+            
+        }
+
