@@ -206,7 +206,7 @@ a:hover {
 }
 
 .button-text {
-    margin-top: 16px;
+    margin-top: 12px;
     margin-left: 20px;
     font-size: 16px;
     color: #337ab7;
@@ -215,7 +215,7 @@ a:hover {
 .button-icon {
     width: 35px;
     float: right;
-    margin: -21px 22px;
+    margin: -25px 22px;
 }
 
 .mega-menu {
