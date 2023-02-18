@@ -430,7 +430,7 @@ a:hover {
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
-    margin-top: -20px;
+    margin-top: -35px;
 }
 .fa-user-plus{
     font-size: 50px;
@@ -485,7 +485,7 @@ a:hover {
 .devider {
     display: flex;
     justify-content: center;
-    margin: 35px 0px;
+    margin: 20px 0px;
 }
 
 .devider p {
@@ -496,7 +496,7 @@ a:hover {
     height: 0px;
     width: 30%;
     border: 1px solid #62606042;
-    margin-top: 13px;
+    margin-top: 15px;
 }
 
 .login-options {
