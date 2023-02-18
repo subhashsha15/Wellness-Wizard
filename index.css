@@ -48,6 +48,9 @@
     right: 20px;
     top: 18px;
 }
+.dropdown-menu.show {
+    margin-left: 35px ;
+}
 
 #dropdownMenuButton li a:hover {
     color: rgb(55, 3, 3);

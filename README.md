@@ -16,15 +16,6 @@ We strive to provide the best possible experience for our users. Our website is 
 If you have any questions or need help using our website, please don't hesitate to contact us. We're here to help!
 
 
-## Deployment
-
-To deploy this project run
-
-```bash
- start index.html
-```
-
-
 ## Run Locally
 
 Clone the project
@@ -36,18 +27,12 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd my-project
-```
-
-Install dependencies
-
-```bash
-  npm install
+  https://heroic-medovik-467a9c.netlify.app
 ```
 
 Start the server
 
 ```bash
-  npm run start
+  start index.html
 ```
 
