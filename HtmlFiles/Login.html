@@ -26,10 +26,14 @@
 </head>
 
 <body>
-    <div class="login-container">
+    <div class="container-fluid">
         <div class="image-container">
         </div>
         <div class="form-container">
+            <div class="login-logo">
+                <div class="login-icon"><i class="fa-solid fa-user-plus"></i></div>
+                <div class="user-login">User Login</div>
+            </div>
             <form>
                 <div class="form-group">
                     <div class="col-auto">
@@ -46,14 +50,12 @@
                     <div class="col-auto">
                         <div class="input-group mb-2">
                             <div class="input-group-prepend">
-                                <div class="input-group-text">@</div>
+                                <div class="input-group-text"><i class="fa-solid fa-key"></i></div>
                             </div>
                             <input type="password" class="form-control" id="exampleInputPassword1"
                                 placeholder="Password">
                         </div>
                     </div>
-
-
                 </div>
                 <div class="form-group form-check">
                     <input type="checkbox" class="form-check-input" id="exampleCheck1">
@@ -73,9 +75,32 @@
             </div>
 
             <div class="login-options">
-                <div class="option Facebook-box"><a href="#">Login With Facebook</a></div>
-                <div class="option Twitter-box"><a href="#">Login With Twitter</a></div>
-                <div class="option Google-box"><a href="#">Login With Google</a></div>
+                <div class="option">
+                    <a href="#">
+                        <div class="Facebook-icon icon-box"><i class="fa-brands fa-facebook-f"></i></div>
+                        <div class="Facebook-text text-box">Login With Facebook</div>
+                    </a>
+                </div>
+                <div class="option">
+                    <a href="#">
+                        <div class="t-box icon-box"><i class="fa-brands fa-twitter"></i></div>
+                        <div class="Twitter-text text-box">Login With Twitter</div>
+                    </a>
+                </div>
+                <div class="option">
+                    <a href="#">
+                        <div class="Google-icon icon-box"><i class="fa-brands fa-google"></i></div>
+                        <div class="Google-text text-box">Login With Google</div>
+                    </a>
+                </div>
+
+
+
+
+
+
+                <!-- <div class="option Twitter-box"><a href="#">Login With Twitter</a></div>
+                <div class="option Google-box"><a href="#">Login With Google</a></div> -->
             </div>
         </div>
     </div>
