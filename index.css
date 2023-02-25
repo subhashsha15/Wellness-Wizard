@@ -48,8 +48,9 @@
     right: 20px;
     top: 18px;
 }
+
 .dropdown-menu.show {
-    margin-left: 35px ;
+    margin-left: 35px;
 }
 
 #dropdownMenuButton li a:hover {
@@ -224,7 +225,7 @@ a:hover {
     left: 360px;
     width: 55%;
     height: 425px;
-     box-shadow: rgb(56 55 55 / 35%) 0px 5px 0px 3px;
+    box-shadow: rgb(56 55 55 / 35%) 0px 5px 0px 3px;
     border-radius: 25px;
     opacity: 0;
     visibility: hidden;
@@ -247,9 +248,11 @@ a:hover {
     height: 40px;
     margin-top: -3px;
 }
-.mega-menu-items ul li a{
-      color: black; 
+
+.mega-menu-items ul li a {
+    color: black;
 }
+
 .mega-menu-items ul li:hover {
     transform: translateX(15px);
     transition: 0.8s;
@@ -281,7 +284,7 @@ a:hover {
 
 .mega-menu-items:nth-child(2) {
     max-width: 0.6%;
-    background-color:rgb(56 55 55 / 35%);
+    background-color: rgb(56 55 55 / 35%);
     margin-left: 0px;
     height: 230px;
     margin-top: 14%;
@@ -410,9 +413,10 @@ a:hover {
 
 /* ==================================================  LOGIN PART  ====================================== */
 
-.Body-color{
+.Body-color {
     background-color: #d7dbdc;
 }
+
 .container-fluid {
     display: flex;
     padding: 30px 150px !important;
@@ -429,22 +433,24 @@ a:hover {
     background-position: center;
 }
 
-.login-logo{
+.login-logo {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
     margin-top: -35px;
 }
-.fa-user-plus{
+
+.fa-user-plus {
     font-size: 50px;
     color: #061f0cb9;
 }
-.user-login{
+
+.user-login {
     font-size: 18px;
     margin-left: 10px;
     margin-top: 35px;
-       font-family: 'Quicksand', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 
